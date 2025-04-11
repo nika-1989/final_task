@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/final_task.iml" filepath="$PROJECT_DIR$/.idea/final_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stepik_autotests_selenium_course/.idea/stepik_autotests_selenium_course.iml" filepath="$PROJECT_DIR$/../stepik_autotests_selenium_course/.idea/stepik_autotests_selenium_course.iml" />
     </modules>
   </component>
 </project>
