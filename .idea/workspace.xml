@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd16f53a-c98c-409d-9578-3ca81a7f8d88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nika-1989&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nika-1989/final_task.git&quot;,
+    &quot;accountId&quot;: &quot;11290d2d-61a2-4051-be6b-abdcb5c3daa9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2uqqQCN6a6pFo8QdVYQceQWzG9N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_main_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_can_add_product_to_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_can_add_product_to_cart_with_different_offer_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_can_go_to_login_page_from_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_cant_see_product_in_basket_opened_from_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_cant_see_success_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_cant_see_success_message_after_adding_product_to_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_guest_should_see_login_link_on_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_page.test_message_disappeared_after_adding_product_to_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_product_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SidelevaVA/PycharmProjects/supplier-stock-tracker-tests&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_product_page.TestUserAddToBasketFromProductPage">
+    <configuration name="Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_main_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_guest_cant_see_product_in_basket_opened_from_main_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_product_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_guest_cant_see_product_in_basket_opened_from_product_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_product_page.TestUserAddToBasketFromProductPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.TestUserAddToBasketFromProductPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_product_page.test_guest_can_go_to_login_page_from_product_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.test_guest_can_go_to_login_page_from_product_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_product_page.test_guest_cant_see_product_in_basket_opened_from_product_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.test_guest_cant_see_product_in_basket_opened_from_product_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_product_page.TestUserAddToBasketFromProductPage" />
+        <item itemvalue="Python tests.Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_product_page" />
+        <item itemvalue="Python tests.Python tests for test_product_page.test_guest_cant_see_product_in_basket_opened_from_product_page" />
+        <item itemvalue="Python tests.Python tests for test_main_page.test_guest_cant_see_product_in_basket_opened_from_main_page" />
+        <item itemvalue="Python tests.Python tests for test_product_page.test_guest_can_go_to_login_page_from_product_page" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd16f53a-c98c-409d-9578-3ca81a7f8d88" name="Changes" comment="" />
+      <created>1742986434088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742986434088</updated>
+    </task>
+    <servers />
+  </component>
+</project>

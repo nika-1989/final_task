@@ -1,6 +1,8 @@
 import pytest
+import time
 from pages.locators import ProductPageLocators
 from .pages.product_page import ProductPage
+from .pages.login_page import LoginPage
 
 #["http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer0",
                               #"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1",
@@ -57,4 +59,28 @@ def test_guest_can_go_to_login_page_from_product_page(browser):
     page.open()
     login_page = page.go_to_login_page()  # Теперь получаем объект LoginPage
     login_page.should_be_login_page()  # Проверяем все аспекты страницы логина
-    
+
+class TestUserAddToBasketFromProductPage:
+    @pytest.fixture(scope="function", autouse=True)
+    def setup(self, browser):
+        login_page = LoginPage (browser, "http://selenium1py.pythonanywhere.com/accounts/login/")
+        login_page.open()
+        # Регистрируем нового пользователя
+        email = f"user{str(time.time())}@example.com"
+        password = "SecurePass123"
+        login_page.register_new_user(email, password)
+        # Проверяем, что пользователь залогинен
+        login_page.should_be_authorized_user()
+
+    def test_user_cant_see_success_message(self, browser):
+        page = ProductPage(browser, link)
+        page.open()
+        page.should_not_be_success_message()
+
+    def test_user_can_add_product_to_basket(self, browser):
+        page = ProductPage(browser, link)
+        page.open()
+        expected_name = page.get_product_name()
+        expected_price = page.get_product_price()
+        page.add_to_cart()
+        page.should_be_product_added(expected_name, expected_price)

@@ -59,4 +59,8 @@ class ProductPage(BasePage):
         assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Success message is presented, but should not be"
 
+    def go_to_basket_page(self):
+        """Переход в корзину, унаследован из BasePage"""
+        return super().go_to_basket_page()
+
 
