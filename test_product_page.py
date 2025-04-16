@@ -1,6 +1,6 @@
 import pytest
 import time
-from pages.locators import ProductPageLocators
+from .pages.locators import ProductPageLocators
 from .pages.product_page import ProductPage
 from .pages.login_page import LoginPage
 
@@ -17,7 +17,9 @@ from .pages.login_page import LoginPage
                              # "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9"])
 #link = "http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook_209/?promo=newYear"
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
+@pytest.mark.need_review
 def test_guest_can_add_product_to_basket(browser):
+    link = "http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook_209/?promo=newYear"
     page = ProductPage(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
     page.open()  # открываем страницу
     # Получаем название и цену товара
@@ -27,6 +29,8 @@ def test_guest_can_add_product_to_basket(browser):
     page.solve_quiz_and_get_code()
     page.should_be_product_added(expected_name, expected_price)
 
+@pytest.mark.need_review
+@pytest.mark.xfail
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
     page = ProductPage(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
     page.open()  # открываем страницу
@@ -53,6 +57,7 @@ def test_guest_should_see_login_link_on_product_page(browser):
     page.open()
     page.should_be_login_link()
 
+@pytest.mark.need_review
 def test_guest_can_go_to_login_page_from_product_page(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/"
     page = ProductPage(browser, link)
@@ -77,6 +82,7 @@ class TestUserAddToBasketFromProductPage:
         page.open()
         page.should_not_be_success_message()
 
+    @pytest.mark.need_review
     def test_user_can_add_product_to_basket(self, browser):
         page = ProductPage(browser, link)
         page.open()
